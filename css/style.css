@@ -23,7 +23,6 @@
 .arcade {
   margin-top: 100px;
   margin-bottom: 100px;
-  position: absolute;
 }
 
 /*
@@ -430,6 +429,12 @@
 }
 
  @media (max-width:767px) {
+.arcade {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: absolute;
+}
+
 .col-md-2 {
   flex: 0 0 auto !important;
   width: 16.66666667% !important;
